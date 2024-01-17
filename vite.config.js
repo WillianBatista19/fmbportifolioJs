@@ -5,6 +5,13 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: 5173, // ou qualquer outra porta desejada
+    port: 5173,
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'src/main.jsx' // Ou o caminho correto para o seu ponto de entrada.
+      }
+    }
+  }
 });
