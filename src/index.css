@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "staubach";
+    src: url('../public/fonts/Staubach.ttf');
+  }
+
+  @font-face {
+    font-family: "akkordeonSlab";
+    src: url('../public/fonts/AkkordeonSlab-Nine.ttf');
+  }
+}
