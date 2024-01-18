@@ -15,7 +15,7 @@ function Main() {
                     <br />
                 <TypeAnimation
                 sequence={[
-                    'Willian',
+                    'Willian!',
                     1000,
                     'Web Developer',
                     1000,
